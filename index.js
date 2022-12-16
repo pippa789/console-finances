@@ -86,3 +86,54 @@ var finances = [
     ['Jan-2017', 138230],
     ['Feb-2017', 671099]
     ];
+
+    console.log("There are " + finances.length + " months of records.");
+
+
+let total = 0
+for(let i =0; i < finances.length; i++){
+    total += finances[i][1]
+}
+console.log(total);
+
+// let average = 
+    // I need to seperate the strings from the numbers and then add them together. 
+    // Start with a new variable profitLosses
+    // Write an if statement to filter out the numbers.
+    // Add the numbers in the new variable togetherin a console log. 
+
+    // Class exersizes for thurs below
+
+   
+// let wins = 0;
+// let losses = 0;
+// let ties = 0;
+
+
+// ///computer randomly choosing rock paper or scissors
+// let choices = ["r", "p", "s"]
+// let randomNum = Math.floor(Math.random()*choices.length);
+// let computerChoice = choices[randomNum];
+
+// let userChoice = prompt("r, p, or s?")
+
+// console.log(computerChoice)
+// console.log(userChoice);
+
+
+// if(computerChoice === userChoice){
+
+//     ties++;
+//     alert("you tied!")
+    
+// }
+//  if(computerChoice === choices[0] && userChoice === choices[1]){
+//     wins++;
+//     alert("you win!");
+//  } 
+//  if(computerChoice === choices[1] && userChoice === choices[]){
+//     wins++;
+//     alert("you win!");
+//  } 
+
+
